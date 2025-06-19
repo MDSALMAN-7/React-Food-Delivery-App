@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home/Home'
+// import Home from './pages/Home/home'
+import Home from './pages/Home/home'
 import Cart from './pages/Cart/Cart'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder' // ✅ Add this line
 
