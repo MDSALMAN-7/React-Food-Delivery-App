@@ -1,4 +1,4 @@
-
+import React from 'react'
 import { assets } from '../../assets/assets'
 import './Footer.css'
 export function Footer(){
@@ -30,11 +30,11 @@ export function Footer(){
                         <li>lapato@gmial.com</li>
                     </ul>
                 </div>
-                <hr />
-                <p className="footer-copyright">
-                    Copyright 2024 @ Lapeto.com - All Right Reserved
-                </p>
             </div>
+            <hr />
+            <p className="footer-copyright">
+                Copyright 2024 @ Lapeto.com - All Right Reserved
+            </p>
         </div>
     )
 }
