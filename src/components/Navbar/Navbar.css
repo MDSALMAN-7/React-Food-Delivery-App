@@ -59,6 +59,26 @@
     right: -8px;
 }
 
+.inputBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 10px;
+}
+.inputBar input{
+    outline: none;
+    margin-right: 5px;
+    /* height: 20px; */
+    border: none;
+    font-size: 18px;
+    
+}
+.inputBar img{
+    /* background-color: rgb(255, 217, 0); */
+}
+
 
 @media (max-width:1050px){
     .navbar .logo{
@@ -76,6 +96,12 @@
     }
     .navbar-right button{
         padding: 8px 25px;
+    }
+    .inputBar{
+        border: none;
+    }
+    .inputBar input{
+        display: none;
     }
 }
 
@@ -97,11 +123,25 @@
         padding: 7px 20px;
         font-size: 15px;
     }
+    .inputBar input{
+        display: none;
+    }
+    .inputBar{
+        border: none;
+    }
 }
+
 @media (max-width:750px){
     
     .navbar-menu{
       display: none;
     }
+    .inputBar input{
+        display: none;
+    }
+    .inputBar{
+        border: none;
+    }
    
 }
+
